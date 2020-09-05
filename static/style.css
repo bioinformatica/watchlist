@@ -1,0 +1,54 @@
+/* 页面整体 */
+body {
+    margin: auto;
+    max-width: 580px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* 页脚 */
+footer {
+    color: #888;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 头像 */
+.avatar {
+    width: 40px;
+}
+
+/* 电影列表 */
+.movie-list {
+    list-style-type: circle;
+    padding: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    /*box-shadow:1px 2px 3px 4px color ;
+    1px:表示沿x轴的正方向的长度(如果是负数，则为沿x轴的负方向的长度);
+    2px:表示沿y轴的正方向的长度(如果是负数，则为沿y轴的负方向的长度);
+    3px:表示阴影的模糊度，并且只能为正数；
+    4px:表示阴影的扩展半径；
+    color:表示阴影的颜色；*/
+}
+
+.movie-list li {
+    padding: 12px 24px;
+    border-bottom: 1px solid #ddd;
+}
+
+.movie-list li:last-child {
+    border-bottom:none;
+}
+
+.movie-list li:hover {
+    background-color: #f8f9fa;
+}
+
+/* 龙猫图片 */
+.totoro {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
