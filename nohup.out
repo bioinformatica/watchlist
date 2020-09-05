@@ -1,0 +1,202 @@
+[2020-09-04 22:09:24 +0800] [20268] [INFO] Starting gunicorn 20.0.4
+[2020-09-04 22:09:24 +0800] [20268] [INFO] Listening at: http://0.0.0.0:8004 (20268)
+[2020-09-04 22:09:24 +0800] [20268] [INFO] Using worker: sync
+[2020-09-04 22:09:24 +0800] [20271] [INFO] Booting worker with pid: 20271
+[2020-09-04 22:09:24 +0800] [20272] [INFO] Booting worker with pid: 20272
+[2020-09-04 22:09:24 +0800] [20273] [INFO] Booting worker with pid: 20273
+[2020-09-04 22:09:24 +0800] [20275] [INFO] Booting worker with pid: 20275
+[2020-09-04 22:09:43 +0800] [20324] [INFO] Booting worker with pid: 20324
+[2020-09-04 22:09:43 +0800] [20325] [INFO] Booting worker with pid: 20325
+[2020-09-04 22:09:43 +0800] [20327] [INFO] Booting worker with pid: 20327
+[2020-09-04 22:09:43 +0800] [20268] [INFO] Handling signal: hup
+[2020-09-04 22:09:43 +0800] [20268] [INFO] Hang up: Master
+[2020-09-04 22:09:44 +0800] [20328] [INFO] Booting worker with pid: 20328
+[2020-09-04 22:09:44 +0800] [20329] [INFO] Booting worker with pid: 20329
+[2020-09-04 22:09:44 +0800] [20330] [INFO] Booting worker with pid: 20330
+[2020-09-04 22:09:44 +0800] [20331] [INFO] Booting worker with pid: 20331
+[2020-09-04 22:09:44 +0800] [20324] [INFO] Worker exiting (pid: 20324)
+[2020-09-04 22:09:44 +0800] [20325] [INFO] Worker exiting (pid: 20325)
+[2020-09-04 22:09:44 +0800] [20327] [INFO] Worker exiting (pid: 20327)
+[2020-09-04 22:16:51 +0800] [21488] [INFO] Starting gunicorn 20.0.4
+[2020-09-04 22:16:51 +0800] [21488] [ERROR] Connection in use: ('0.0.0.0', 8004)
+[2020-09-04 22:16:51 +0800] [21488] [ERROR] Retrying in 1 second.
+[2020-09-04 22:16:52 +0800] [21488] [ERROR] Connection in use: ('0.0.0.0', 8004)
+[2020-09-04 22:16:52 +0800] [21488] [ERROR] Retrying in 1 second.
+[2020-09-04 22:16:53 +0800] [21488] [ERROR] Connection in use: ('0.0.0.0', 8004)
+[2020-09-04 22:16:53 +0800] [21488] [ERROR] Retrying in 1 second.
+[2020-09-04 22:16:54 +0800] [21488] [ERROR] Connection in use: ('0.0.0.0', 8004)
+[2020-09-04 22:16:54 +0800] [21488] [ERROR] Retrying in 1 second.
+[2020-09-04 22:16:55 +0800] [21488] [ERROR] Connection in use: ('0.0.0.0', 8004)
+[2020-09-04 22:16:55 +0800] [21488] [ERROR] Retrying in 1 second.
+[2020-09-04 22:16:56 +0800] [21488] [ERROR] Can't connect to ('0.0.0.0', 8004)
+[2020-09-04 22:21:01 +0800] [20329] [INFO] Parent changed, shutting down: <Worker 20329>
+[2020-09-04 22:21:01 +0800] [20329] [INFO] Worker exiting (pid: 20329)
+[2020-09-04 22:21:04 +0800] [20330] [INFO] Parent changed, shutting down: <Worker 20330>
+[2020-09-04 22:21:04 +0800] [20330] [INFO] Worker exiting (pid: 20330)
+[2020-09-04 22:21:13 +0800] [20328] [INFO] Parent changed, shutting down: <Worker 20328>
+[2020-09-04 22:21:13 +0800] [20328] [INFO] Worker exiting (pid: 20328)
+[2020-09-04 22:21:14 +0800] [20331] [INFO] Parent changed, shutting down: <Worker 20331>
+[2020-09-04 22:21:14 +0800] [20331] [INFO] Worker exiting (pid: 20331)
+[2020-09-04 22:25:44 +0800] [22793] [INFO] Starting gunicorn 20.0.4
+[2020-09-04 22:25:44 +0800] [22793] [INFO] Listening at: http://0.0.0.0:8004 (22793)
+[2020-09-04 22:25:44 +0800] [22793] [INFO] Using worker: sync
+[2020-09-04 22:25:44 +0800] [22796] [INFO] Booting worker with pid: 22796
+[2020-09-04 22:25:45 +0800] [22798] [INFO] Booting worker with pid: 22798
+[2020-09-04 22:25:45 +0800] [22800] [INFO] Booting worker with pid: 22800
+[2020-09-04 22:25:45 +0800] [22802] [INFO] Booting worker with pid: 22802
+[2020-09-04 22:25:49 +0800] [22793] [INFO] Handling signal: hup
+[2020-09-04 22:25:49 +0800] [22793] [INFO] Hang up: Master
+[2020-09-04 22:25:49 +0800] [22812] [INFO] Booting worker with pid: 22812
+[2020-09-04 22:25:49 +0800] [22814] [INFO] Booting worker with pid: 22814
+[2020-09-04 22:25:49 +0800] [22813] [INFO] Booting worker with pid: 22813
+[2020-09-04 22:25:49 +0800] [22815] [INFO] Booting worker with pid: 22815
+[2020-09-04 22:28:11 +0800] [22814] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:28:11 +0800] [22814] [INFO] Worker exiting (pid: 22814)
+[2020-09-04 22:28:11 +0800] [22813] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:28:11 +0800] [22813] [INFO] Worker exiting (pid: 22813)
+[2020-09-04 22:28:11 +0800] [23242] [INFO] Booting worker with pid: 23242
+[2020-09-04 22:28:11 +0800] [23244] [INFO] Booting worker with pid: 23244
+[2020-09-04 22:28:12 +0800] [22815] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:28:12 +0800] [22815] [INFO] Worker exiting (pid: 22815)
+[2020-09-04 22:28:12 +0800] [22812] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:28:12 +0800] [22812] [INFO] Worker exiting (pid: 22812)
+[2020-09-04 22:28:12 +0800] [23251] [INFO] Booting worker with pid: 23251
+[2020-09-04 22:28:12 +0800] [23252] [INFO] Booting worker with pid: 23252
+[2020-09-04 22:36:05 +0800] [23252] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:05 +0800] [23252] [INFO] Worker exiting (pid: 23252)
+[2020-09-04 22:36:05 +0800] [23244] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:05 +0800] [23244] [INFO] Worker exiting (pid: 23244)
+[2020-09-04 22:36:05 +0800] [24337] [INFO] Booting worker with pid: 24337
+[2020-09-04 22:36:05 +0800] [24338] [INFO] Booting worker with pid: 24338
+[2020-09-04 22:36:06 +0800] [23242] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:06 +0800] [23242] [INFO] Worker exiting (pid: 23242)
+[2020-09-04 22:36:06 +0800] [23251] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:06 +0800] [23251] [INFO] Worker exiting (pid: 23251)
+[2020-09-04 22:36:06 +0800] [24343] [INFO] Booting worker with pid: 24343
+[2020-09-04 22:36:06 +0800] [24344] [INFO] Booting worker with pid: 24344
+[2020-09-04 22:36:06 +0800] [24337] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:06 +0800] [24337] [INFO] Worker exiting (pid: 24337)
+[2020-09-04 22:36:06 +0800] [24338] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:06 +0800] [24338] [INFO] Worker exiting (pid: 24338)
+[2020-09-04 22:36:06 +0800] [24353] [INFO] Booting worker with pid: 24353
+[2020-09-04 22:36:06 +0800] [24354] [INFO] Booting worker with pid: 24354
+[2020-09-04 22:36:25 +0800] [24353] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:25 +0800] [24353] [INFO] Worker exiting (pid: 24353)
+[2020-09-04 22:36:25 +0800] [24354] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:25 +0800] [24397] [INFO] Booting worker with pid: 24397
+[2020-09-04 22:36:25 +0800] [24343] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:25 +0800] [24343] [INFO] Worker exiting (pid: 24343)
+[2020-09-04 22:36:25 +0800] [24344] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:36:25 +0800] [24344] [INFO] Worker exiting (pid: 24344)
+[2020-09-04 22:36:25 +0800] [24400] [INFO] Booting worker with pid: 24400
+[2020-09-04 22:36:25 +0800] [24401] [INFO] Booting worker with pid: 24401
+[2020-09-04 22:36:26 +0800] [24354] [INFO] Worker exiting (pid: 24354)
+[2020-09-04 22:36:26 +0800] [24409] [INFO] Booting worker with pid: 24409
+[2020-09-04 22:45:23 +0800] [24409] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:23 +0800] [24409] [INFO] Worker exiting (pid: 24409)
+[2020-09-04 22:45:23 +0800] [25685] [INFO] Booting worker with pid: 25685
+[2020-09-04 22:45:24 +0800] [24400] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:24 +0800] [24400] [INFO] Worker exiting (pid: 24400)
+[2020-09-04 22:45:24 +0800] [25688] [INFO] Booting worker with pid: 25688
+[2020-09-04 22:45:24 +0800] [24401] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:24 +0800] [24401] [INFO] Worker exiting (pid: 24401)
+[2020-09-04 22:45:24 +0800] [25689] [INFO] Booting worker with pid: 25689
+[2020-09-04 22:45:24 +0800] [24397] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:24 +0800] [24397] [INFO] Worker exiting (pid: 24397)
+[2020-09-04 22:45:24 +0800] [25692] [INFO] Booting worker with pid: 25692
+[2020-09-04 22:45:30 +0800] [25688] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:30 +0800] [25688] [INFO] Worker exiting (pid: 25688)
+[2020-09-04 22:45:30 +0800] [25711] [INFO] Booting worker with pid: 25711
+[2020-09-04 22:45:30 +0800] [25689] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:30 +0800] [25689] [INFO] Worker exiting (pid: 25689)
+[2020-09-04 22:45:30 +0800] [25692] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:30 +0800] [25692] [INFO] Worker exiting (pid: 25692)
+[2020-09-04 22:45:30 +0800] [25714] [INFO] Booting worker with pid: 25714
+[2020-09-04 22:45:30 +0800] [25715] [INFO] Booting worker with pid: 25715
+[2020-09-04 22:45:30 +0800] [25685] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:30 +0800] [25685] [INFO] Worker exiting (pid: 25685)
+[2020-09-04 22:45:31 +0800] [25717] [INFO] Booting worker with pid: 25717
+[2020-09-04 22:45:56 +0800] [25714] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:56 +0800] [25714] [INFO] Worker exiting (pid: 25714)
+[2020-09-04 22:45:56 +0800] [25771] [INFO] Booting worker with pid: 25771
+[2020-09-04 22:45:56 +0800] [25715] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:56 +0800] [25715] [INFO] Worker exiting (pid: 25715)
+[2020-09-04 22:45:56 +0800] [25717] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:56 +0800] [25717] [INFO] Worker exiting (pid: 25717)
+[2020-09-04 22:45:56 +0800] [25775] [INFO] Booting worker with pid: 25775
+[2020-09-04 22:45:56 +0800] [25777] [INFO] Booting worker with pid: 25777
+[2020-09-04 22:45:56 +0800] [25711] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:45:56 +0800] [25711] [INFO] Worker exiting (pid: 25711)
+[2020-09-04 22:45:56 +0800] [25786] [INFO] Booting worker with pid: 25786
+[2020-09-04 22:46:17 +0800] [25786] [INFO] Worker reloading: /home/ubuntu/watchlist/app.py modified
+[2020-09-04 22:46:17 +0800] [25786] [INFO] Worker exiting (pid: 25786)
+[2020-09-04 22:46:17 +0800] [25848] [INFO] Booting worker with pid: 25848
+[2020-09-04 22:46:17 +0800] [25848] [ERROR] unexpected indent (app.py, line 6)
+Traceback (most recent call last):
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ubuntu/watchlist/app.py", line 6
+    return u'<h1>欢迎来到Welcoasdfame toasdsfasdffffffffffasfd My Wat!<h1>'
+    ^
+IndentationError: unexpected indent
+[2020-09-04 22:46:17 +0800] [25848] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/workers/base.py", line 144, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 49, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 39, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/util.py", line 358, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/ubuntu/watchlist/app.py", line 6
+    return u'<h1>欢迎来到Welcoasdfame toasdsfasdffffffffffasfd My Wat!<h1>'
+    ^
+IndentationError: unexpected indent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/workers/base.py", line 119, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/watchlist/env/lib/python3.6/site-packages/gunicorn/workers/base.py", line 157, in load_wsgi
+    self.reloader.add_extra_file(exc_val.filename)
+AttributeError: 'NoneType' object has no attribute 'add_extra_file'
+[2020-09-04 22:46:17 +0800] [25848] [INFO] Worker exiting (pid: 25848)
+[2020-09-04 22:46:17 +0800] [25771] [INFO] Worker exiting (pid: 25771)
+[2020-09-04 22:46:17 +0800] [25775] [INFO] Worker exiting (pid: 25775)
+[2020-09-04 22:46:17 +0800] [25777] [INFO] Worker exiting (pid: 25777)
+[2020-09-04 22:46:17 +0800] [22793] [INFO] Shutting down: Master
+[2020-09-04 22:46:17 +0800] [22793] [INFO] Reason: Worker failed to boot.
