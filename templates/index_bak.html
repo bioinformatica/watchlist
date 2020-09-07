@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ user.name }}'s Watchlist</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/ico.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+</head>
+<body>
+    <h2> <img class="avatar" src="{{ url_for('static',filename='images/avatar.png') }}"> {{user.name}}'s Wathchlist</h2>
+    <p>{{movies|length}} Titles</p>  
+    <ul class="movie-list">
+        {%for movie in movies%}
+        <li>{{movie.title}} - {{ movie.year }}</li>
+        {% endfor %} 
+        <!-- {{main}} -->
+    </ul>
+    <img class="totoro" src="{{ url_for('static',filename='images/totoro.gif')}}">
+
+    <footer>
+        <small>Copyright &copy; 2020 <a href="http://helloflask.com/tutorial">HelloFlask</a><br>
+        All rights reserved.</small>
+    </footer>
+    
+</body>
+</html>
